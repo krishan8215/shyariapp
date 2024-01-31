@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/manbackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/itemshayri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:fontFamily="@font/kk"
+                android:text="मैं लिख दूँ तुम्हारी उम्र चाँद सितारों से,
+मैं मनाऊ जन्मदिन तुम्हारा फूल बहारों से,
+ऐसी खूबसूरती दुनिया से लेकर आऊँ मैं,
+के सारी महफ़िल सज जाए हसीं नजारों से।"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+            <!--<LinearLayout-->
+            <!--    android:layout_width="match_parent"-->
+            <!--    android:orientation="horizontal"-->
+            <!--    android:layout_height="40dp"-->
+            <!--    android:background="@color/red">-->
+
+            <!--    <FrameLayout-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:padding="5dp"-->
+            <!--        android:layout_gravity="center"-->
+            <!--        android:layout_height="wrap_content">-->
+
+            <!--        <ImageView-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:id="@+id/bshare"-->
+            <!--            android:layout_height="wrap_content"-->
+
+            <!--            android:backgroundTint="@color/white"-->
+
+            <!--            android:background="@drawable/baseline_share_24">-->
+
+            <!--        </ImageView>-->
+
+            <!--    </FrameLayout>-->
+
+            <!--    <FrameLayout-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:padding="2dp"-->
+            <!--        android:layout_gravity="center"-->
+            <!--        android:layout_marginStart="120sp"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        >-->
+
+            <!--        <ImageView-->
+            <!--            android:layout_width="40dp"-->
+            <!--            android:id="@+id/bwhats"-->
+            <!--            android:layout_height="40sp"-->
+            <!--            android:backgroundTint="@color/white"-->
+            <!--            android:background="@drawable/whatsapp">-->
+
+            <!--        </ImageView>-->
+
+
+            <!--    </FrameLayout>-->
+
+            <!--<FrameLayout-->
+            <!--    android:layout_width="wrap_content"-->
+            <!--    android:padding="10dp"-->
+            <!--    android:layout_gravity="center"-->
+            <!--    android:layout_marginStart="120dp"-->
+            <!--    android:layout_height="wrap_content">-->
+
+
+            <!--    <ImageView-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:background="@drawable/baseline_arrow_downward_24"-->
+            <!--        android:backgroundTint="@color/white"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:id="@+id/bdownload">-->
+
+            <!--    </ImageView>-->
+
+            <!--</FrameLayout>-->
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

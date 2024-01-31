@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612492766043",
+    "project_id": "shayripanel",
+    "storage_bucket": "shayripanel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612492766043:android:a7f86628b6fcf5bd0b887e",
+        "android_client_info": {
+          "package_name": "com.example.shayripanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612492766043-e6pcci5cs2dm3q73o61u8mainaptitcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjNCa1UItr0ZaaXJ5nFyjSjmNEcpj9woM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612492766043-e6pcci5cs2dm3q73o61u8mainaptitcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
